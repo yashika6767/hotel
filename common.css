@@ -1,0 +1,36 @@
+
+    *{
+        font-family:'poppins',sans-serif;
+    }
+    .h-font{
+        font-family:'Merienda',cursive;
+    }
+    
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+     margin: 0;
+    }
+
+    /* Firefox */
+   input[type=number] {
+  -moz-appearance: textfield;
+  }
+  .availability-form{
+    margin-top: -50px;
+    z-index: 2;
+    position: relative;
+
+
+  }
+  @media screen and ( max-width:575px){
+    
+    .availability-form{
+      margin-top: 0px;
+      padding: 0 35;
+
+      
+
+    
+  }
+  
